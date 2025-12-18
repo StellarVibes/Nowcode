@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int a = 0, b = 0, c = 0;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    int max = a>b?a:b;
+    max=max>c?max:c;
+    cout<<max;
+
+    return 0;
+}
